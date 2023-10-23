@@ -1,0 +1,143 @@
+*{
+  margin: 0;
+}
+
+
+body {
+  background-color: #198754;
+  margin: 20px 0px;
+  display: flex;
+  justify-content: center;
+  font-family: 'Mooli', sans-serif;
+  min-height: 100%;
+}
+
+#root {
+  width: 80%;
+  background-color: white;
+  min-height: 610px;
+  padding-top: 30px;
+}
+
+
+.up {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.up h1{
+  margin-bottom: 20px;
+}
+
+.up input {
+  width: 85%;
+  border: 2px solid #198754;
+}
+
+.form-control.is-valid {
+  background-image: none;
+}
+
+#agre{
+  margin: 10px;
+  color: #198754;
+  font-size: small;
+  padding: 5px 45px;
+  border: 2px solid #198754;
+} 
+
+#agre:hover{
+  color: white;
+}
+
+
+
+.bottom {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 10px;
+  padding-bottom: 35px;
+  min-height: 72%;
+}
+
+.sub {
+  padding: 5px;
+  border: 2px solid #198754;
+  border-radius: 5px;
+  width: 75%;
+  display: flex;
+  justify-content: space-between;
+  height: 40px;
+  margin: 10px 0px;
+}
+
+.sub p {
+  margin: 0px 15px;
+}
+
+#mues {
+  margin: 0px 15px;
+  padding: 0px 15px 10px 15px;
+  color: white;
+}
+
+
+
+
+#list {
+  border: 2px solid #198754;
+  border-radius: 5px;
+  padding: 10px;
+  width: 75%;
+  min-height: 360px;
+}
+
+#tarea {
+  /* border: 1px solid red; */
+  border-bottom: 1px solid #198754;
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 10px;
+}
+
+#tarea li {
+  margin: 0px 15px;
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+#eli{
+  font-size: small;
+  margin-bottom: 5px;
+  padding: 3px 15px;
+}
+
+#eli:hover{
+  background-color: #dc3545;
+
+}
+
+
+#task {
+  display: flex;
+  align-items: center;
+}
+
+
+.tarea-completada {
+  text-decoration: line-through; /* Tachar el texto */
+  color: gray; /* Cambiar el color del texto a gris */
+}
+
+#task input {
+  cursor: pointer;
+}
+
+input[type="checkbox" ] {
+  accent-color: #198754;
+}
+
